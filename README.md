@@ -10,3 +10,6 @@
 2. 이두희
 3. 양(현지)
 4. surf forecast
+
+## Status
+![Jekyll site CI](https://github.com/gon-park/interactive-web/workflows/Jekyll%20site%20CI/badge.svg)
