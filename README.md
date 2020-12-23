@@ -1,5 +1,5 @@
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/gon-park/interactive-web)
-
+![Jekyll site CI](https://github.com/gon-park/interactive-web/workflows/Jekyll%20site%20CI/badge.svg)
 
 <!-- TOC -->
 
@@ -18,7 +18,6 @@
     - [이두희](#이두희)
     - [양(현지)](#양현지)
     - [surf forecast](#surf-forecast)
-  - [Status](#status)
   - [참고](#참고)
 
 <!-- /TOC -->
@@ -66,17 +65,21 @@ yarn add eslint
 ### run CI link test
 ```sh
 yarn run eslint --init
+
+# package.json에 lint script 추가
+> "lint": "eslint src/**/*.js"
+
+yarn lint
 ```
-을 수행하면 `yarn start` comile 시 eslint를 수행한다.
+
+사용법 참고
+- [eslint src/**/*.js](https://eslint.org/docs/user-guide/configuring#adding-shared-settings)
 
 ## 공통 주제(4개 다 하고, 순서를 정해서 먼저 한다)
 ### 돌아가는 카드(성원)
 ### 이두희
 ### 양(현지)
 ### surf forecast
-
-## Status
-![Jekyll site CI](https://github.com/gon-park/interactive-web/workflows/Jekyll%20site%20CI/badge.svg)
 
 ## 참고
 - https://takeuu.tistory.com/142?category=752297
